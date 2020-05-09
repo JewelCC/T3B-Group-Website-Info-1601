@@ -1,11 +1,17 @@
-html{
+* {
     margin: 0;
     font-family: Rubik;
+    box-sizing: border-box;
+      
 }
+
 
 body { 
     min-width: 750px; 
     overflow-x: hidden;
+    margin:0;
+    padding: 0;
+    
 }
 
 nav{
@@ -73,6 +79,13 @@ nav a:hover{
    padding-top: 2em;
     
 }
+/* Container for featured artist */
+.container3{
+    margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
 
 .btn{
     background-color: #de0030;
@@ -89,12 +102,15 @@ nav a:hover{
     background-color:  #cc0000;
 }
 
+
+
+/* CSS For featured works */
 .box{
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
-    margin: 0 auto;
+    margin-top: 100px;
   }
   .card{
     position: relative;
@@ -187,3 +203,74 @@ nav a:hover{
   }
   
   
+  /* CSS For Meet the Artist Cards */
+.img-wrapper
+{
+	width: 200px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.img-wrapper:before
+{
+	content: '';
+
+	left: 180%;
+	height: 100%;
+	width: 100%;
+	
+	z-index: 1;
+	transform: skew(45deg);
+	transition: .5s;
+}
+
+.img-wrapper img
+{
+	height: 400px;
+	width: 300px;
+	filter: grayscale(0%);
+	transition: 2s;
+}
+.img-wrapper:hover img
+{
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
+
+.img-wrapper h2 
+{
+	background: tomato;
+	font-family: Poppins;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	transform: perspective(400px) rotateY(90deg);
+	transform-origin: right;
+	transition: 1s;
+}
+
+.img-wrapper:hover h2
+{
+	transform: perspective(400px) rotateY(0deg);
+}
+
+.image-area{
+   margin:50px 100px 100px;
+   
+}
+
+
+/* Section with refunf */
+.refund{
+    text-align: center;
+    margin-top: 100px;
+}
+footer{
+    background-color: red;
+}

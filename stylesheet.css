@@ -48,9 +48,11 @@ nav a:hover{
     
 }
 
-.container{
+
+
+.contain{
     padding:10px;
-    margin-top: 70px;
+    margin-top: 40px;
     height: 320px;
     width: 100%;
     background-color: #7FE0D4;
@@ -266,11 +268,88 @@ nav a:hover{
 }
 
 
-/* Section with refunf */
+/* Section with refund */
 .refund{
     text-align: center;
     margin-top: 100px;
 }
+
+
+
+.search-text{
+	margin-top:50px;
+	background-color: #272d33;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+	
+.search-text .input-search{
+	height:45px;
+	width:40%;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+    background: #da3e44;
+    font-family:Roboto;
+    border:none;
+	color:#FFF;
+	height: 45px;
+    width: 80px;
+}
+
+.search-text h4{
+    color: #FFF;
+    font-weight: 700;
+}
+
 footer{
-    background-color: red;
+     background-color: #33383c;
+     padding:30px 0px;
+}	       
+
+.logo{
+    
+    font-weight:700;
+    font-size:30px;
+}
+
+.address span , .menu span{
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+
+
+.address li, .menu li a{
+    margin:20px 0px;
+    list-style: none;
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+    
+}
+
+.menu li{
+    padding:5px;
+}
+
+ .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.rights{
+   text-align: center;
 }

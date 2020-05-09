@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Page</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     </head>
     
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -16,15 +19,15 @@
             <nav >  
                  
                 <a   href="Artwork.html"> Artwork </a>
-                <a   href="Contact.html"> Contact Us </a>
+                <a   href="Collection.html"> Collections </a>
                 <a  href="About.html"> About Us</a>
             </nav>
         </header>
         
-        <div class="container">
+        <div class="contain">
             <div class="page-wrap">
          <table >
-             <tr    >
+             <tr >
                  
                  <td style="width: 50%"> 
                      <h1  > Shop Fine Art <br> From Local Artist All over Trinidad ! </h1>
@@ -34,13 +37,14 @@
                  </td>
                  
                  <td rowspan="2" >
-                     <img src="images/steve-johnson-mEbvbqW1Xtc-unsplash.jpg" alt="Intro Artwork" width="250px" height="250px" border=5  style="margin-left:200px"> 
+                     <img src= "Artwork/vlad-kutepov-XU0YcfPXKI4-unsplash.jpg" alt="Intro Artwork"  width="300px" 
+                     height="250px"   style="margin-left:200px;border:4px solid" > 
                      
                  </td>
                  
              </tr>
              <tr>
-             <td> <button class="btn" type="button"> Read More </button></td>
+             <td> <button class="btn" type="button"> View Art </button></td>
              </tr>
             </table>
                 </div>
@@ -138,7 +142,7 @@
                               <br> <img src="images/five starts.jpg" alt="Five star review " height="100px " width="50px" class="center" style="margin-top: -20px;">   
                          </td>
                          <td>
-                             <img src="Artwork/photo-of-daisy-flowers-1477166.jpg" alt="Diasies" border=3 height="300px" width="350px"  >
+                             <img src="Artwork/photo-of-daisy-flowers-1477166.jpg" alt="Diasies" style="border: 3px solid" height="300px" width="350px"  >
                          </td>
                          <td style="padding-left: 40px;"> <span style="font-weight: bold; "> May </span> <p> "This work arrived yesterday, in great condition.
                               It's a magnificent piece. I was happy with the product and the service. The artist was pleasant and the the process was smooth after finding him on Tart. 
@@ -208,9 +212,71 @@
         </div>
     
 
-        <footer>
-            <p> someone@hotmail.com</p>
-        </footer>
+        <div class="search-text"> 
+            <div class="container">
+              <div class="row text-center">
+              
+                <div class="form">
+                    <h4>SIGN UP TO OUR NEWSLETTER</h4>
+                     <form id="search-form" class="form-search form-horizontal">
+                         <input type="text" class="input-search" placeholder="Email Address">
+                         <button type="submit" class="btn-search">SUBMIT</button>
+                     </form>
+                 </div>
+             
+               </div>         
+            </div>     
+         </div>
+         
+         <footer>
+          <div class="container">
+            <div class="row">
+            
+                     <div class="col-md-4 col-sm-6 col-xs-12">
+                       <span class="logo">  <img src="images/logo_transparent.png" height="150px" width="150px">  </span>
+                       
+                     </div>
+                     
+                     
+                     <div class="col-md-4 col-sm-6 col-xs-12">
+                         <ul class="menu">
+                              <span>Menu</span>    
+                              <li>
+                                 <a href="Home.html">Home</a>
+                               </li>
+                                    
+                               <li>
+                                  <a href="AboutUs.html">About</a>
+                               </li>
+                                    
+                               <li>
+                                 <a href="#">FAQs</a>
+                               </li>
+                                
+                               
+                          </ul>
+                     </div>
+                
+                     <div class="col-md-4 col-sm-6 col-xs-12">
+                       <ul class="address">
+                             <span>Contact</span>       
+                             <li>
+                                 (868)632-3423 
+                             </li>
+                             <li>
+                                #21 Williams Drive, <br> Port-of-Spain
+                             </li> 
+                             <li>
+                                TART@gmail.com
+                             </li> 
+                        </ul>
+
+                        
+                    </div>
+
+                    <div class="rights"> 
+                        <p style="color: white;"> © TART 2020, All Rights Reserved </p>
+                        </div>
     </body>
     
 

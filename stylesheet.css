@@ -411,21 +411,8 @@ footer{
     position: relative;
     width: 500px;
     background: #fff;
-    padding: 100px 40px 60px;
+    padding: 100px;
     box-shadow: 0 15px 45px;
-}
-
-.dcontainer .dbox:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60%;
-    background: #da3e44;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 0.5s;
 }
 
 .dcontainer .dbox:hover:before{
@@ -459,6 +446,3 @@ footer{
     transition: 0.5s;
 }
 
-.dcontainer .dbox:hover h3 .dcontainer .dbox p{
-    color: #fff;
-}

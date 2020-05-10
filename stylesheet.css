@@ -354,13 +354,13 @@ footer{
    text-align: center;
 }
 
+/* CSS FOR ARTWORK.HTML */
 .view-work{
   
         padding:10px;
-        margin-top: 60px;
+        margin-top: 50px;
         height: 150px;
         width: 100%;
-        background-color: #99bbff;
         overflow: hidden;
         
 }
@@ -378,23 +378,16 @@ footer{
   
   .price {
     color: grey;
-    font-size: 22px;
+    font-size: 16px;
   }
   
-  .card-art button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
   
-  .card-art {
-    opacity: 0.7;
-  }
+  
 
- 
+
+  .card-container {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}

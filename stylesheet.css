@@ -8,10 +8,11 @@
 
 body { 
     min-width: 750px; 
-    overflow-x: hidden;
+    overflow-x: scroll;
     margin:0;
     padding: 0;
     z-index: -1;
+    
 }
 
 header{

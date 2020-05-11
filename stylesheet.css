@@ -411,7 +411,6 @@ footer{
     grid-gap: 20px;
 }
 
-<<<<<<< HEAD
 #myBtn {
     display: none; 
     position: fixed; 
@@ -431,7 +430,7 @@ footer{
   #myBtn:hover {
     background-color: #555; 
   }
-=======
+  
 /* About us */
 .dcontainer{
     width: 1100px;
@@ -479,4 +478,3 @@ footer{
     transition: 0.5s;
 }
 
->>>>>>> 6a0eb277b9ce20ca7a3ee358193257bbf0046c69

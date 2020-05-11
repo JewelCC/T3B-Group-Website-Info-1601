@@ -280,6 +280,12 @@ nav a:hover{
     padding: 4px;
 }
 
+.art{
+    height: 300px;
+    width: 300px;
+    margin: 100px 40px 100px 60px;
+    
+}
 
 /* Section with refund */
 .refund{
@@ -406,6 +412,26 @@ footer{
     grid-gap: 20px;
 }
 
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+  
 /* About us */
 .dcontainer{
     width: 1100px;

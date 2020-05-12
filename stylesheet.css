@@ -15,6 +15,10 @@ body {
     
 }
 
+.i{
+    display: inline;
+}
+
 header{
     font-size: 15px;
 }

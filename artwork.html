@@ -6,6 +6,7 @@
         <title>Tart|Artwork</title>
         <link rel="stylesheet" href="stylesheet.css">
        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -25,9 +26,9 @@
 
 
         <div class="view-work"> 
-          <h1> Let's Discuss</h1><br>
+          <h1 style="font-family: Dancing Script"> Let's Discuss</h1><br>
           <p> View art below and share your thoughts in our discussion section. </p>
-           
+          <p> Send us an email if you'd like to see your work here ! <p></p> 
             
         </div>
         
@@ -213,8 +214,34 @@
                                     
                                    
                               </ul>
-                         </div>
-                    
+                                    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                              </div>
+                          
+                              <script> 
+                                
+                              mybutton = document.getElementById("myBtn");
+
+                              window.onscroll = function() {scrollFunction()};
+
+                              function scrollFunction() {
+                                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                  mybutton.style.display = "block";
+                                } else {
+                                  mybutton.style.display = "none";
+                                }
+                              }
+
+
+                              function topFunction() {
+                                document.body.scrollTop = 0; 
+                                document.documentElement.scrollTop = 0; 
+                              }
+                                                
+                        
+                        
+                        </script>
+
+
                          <div class="col-md-4 col-sm-6 col-xs-12">
                            <ul class="address">
                                  <span>Contact</span>       
